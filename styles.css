@@ -131,24 +131,28 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    .contact-btn {
-        display: none;
-    }
-    
-    h1 {
-        margin: 3rem 0 3rem;
-    }
-    .hero-button {
-        margin-bottom: 1rem;
-    }
+  .contact-btn {
+      display: none;
+  }
+  
+  h1 {
+      margin: 3rem 0 3rem;
+  }
+  .hero-button {
+      margin-bottom: 1rem;
+  }
 
-    .title-image {
-        margin-top: 2rem;
-    }
+  .title-image {
+      margin-top: 2rem;
+  }
 
-    .footer-logo {
-        width: 50%;
-    }
+  .footer-logo {
+      width: 50%;
+  }
+
+  #title {
+    background-position: center right;
+  }
 
 }
 
