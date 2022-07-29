@@ -1,0 +1,231 @@
+
+#title {
+    background-image: url('images/GradientBackground-05.png');
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #D86B1D;
+    font-size: 3rem;
+    line-height: 1.4;
+    margin-bottom: 6rem;
+}
+
+.container-fluid {
+    padding: 4% 15% 8%;
+}
+
+/* Navigation Bar Section */
+
+.navbar-logo {
+    width: 160px;
+}
+
+.navigation-bar {
+    padding: 0.5% 7%;
+}
+
+.contact-btn {
+    color: #D86B1D;
+    background-color: rgba(255, 255, 255);
+    border: solid 1.5px;
+    border-radius: 20px;
+    padding: 0.3rem 3.5rem;
+}
+
+
+/* Footer Section */
+
+#footer {
+    background-color: rgba(12, 117, 166, 0.3);
+    
+}
+
+footer {
+    margin: 0;
+    padding: 1.5% 0 0.8%;
+    
+}
+
+.footer-p {
+    width: 100%;
+    font-size: 16px;
+    
+}
+
+.footer-container {
+    padding: 0 15%;
+    
+}
+
+.footer-logo {
+    width: 25%;
+    float: right;
+}
+
+.link-warning {
+    color: #D86B1D;
+}
+
+.link-warning:hover {
+    color: #D86B1D;
+}
+
+
+.fa-brands {
+    color: #233568;
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+}
+
+
+/* Hero Section */
+
+.InLook-button {
+    border: none;
+    margin-right: 10%;
+    background: #233568;
+    background-image: -webkit-linear-gradient(top, #233568, #0C75A6);
+    background-image: -moz-linear-gradient(top, #233568, #0C75A6);
+    background-image: -ms-linear-gradient(top, #233568, #0C75A6);
+    background-image: -o-linear-gradient(top, #233568, #0C75A6);
+    background-image: linear-gradient(to bottom, #233568, #0C75A6);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 45px 10px 45px;
+    text-decoration: none;
+    
+}
+  
+  .InLook-button:hover {
+    background: #0C75A6;
+    background-image: -webkit-linear-gradient(top, #0C75A6, #233568);
+    background-image: -moz-linear-gradient(top, #0C75A6, #233568);
+    background-image: -ms-linear-gradient(top, #0C75A6, #233568);
+    background-image: -o-linear-gradient(top, #0C75A6, #233568);
+    background-image: linear-gradient(to bottom, #0C75A6, #233568);
+    text-decoration: none;
+    
+}
+
+
+.title-image {
+    width: 100%;
+    float: right;
+
+}
+
+.hero-container {
+    margin-top: 10%;
+    
+
+}
+
+.hero-content {
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-btn {
+        display: none;
+    }
+    
+    h1 {
+        margin: 3rem 0 3rem;
+    }
+    .hero-button {
+        margin-bottom: 1rem;
+    }
+
+    .title-image {
+        margin-top: 2rem;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+ 
+
